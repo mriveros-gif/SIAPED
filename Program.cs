@@ -15,7 +15,7 @@ namespace SIAPED
 
             while (!salir)
             {
-                Consola.MostrarEncabezado("--MENÚ PRINCIPAL--");
+                Consola.MostrarEncabezado("MENÚ PRINCIPAL");
                 Console.WriteLine("  [1] Iniciar atención a cliente");
                 Console.WriteLine("  [2] Ver mesas disponibles");
                 Console.WriteLine("  [3] Ver menú del restaurante");
