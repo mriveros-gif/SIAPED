@@ -27,35 +27,35 @@ namespace SIAPED.Utils
 
             if (!File.Exists(RutaMesas))
                 File.WriteAllText(RutaMesas,
-                    "1|4|LIBRE\n2|4|LIBRE\n3|2|LIBRE\n4|6|LIBRE\n5|2|LIBRE\n6|8|LIBRE\n");
+                    "1|4|LIBRE\n2|4|LIBRE\n3|4|LIBRE\n4|3|LIBRE\n5|3|LIBRE\n6|3|LIBRE\n7|3|LIBRE\n8|2|LIBRE\n9|2|LIBRE\n10|2|LIBRE");
 
             if (!File.Exists(RutaMenu))
                 File.WriteAllText(RutaMenu,
-                    "E001|Lomo Saltado|28.00|ENTRADA\n" +
-                    "E002|Ceviche de Pescado|32.00|ENTRADA\n" +
-                    "E003|Papa a la Huancaina|15.00|ENTRADA\n" +
+                    "E001|Lomo Saltado|10.00|FONDO\n" +
+                    "E002|Tallarines Verdes|10.00|FONDO\n" +
+                    "E003|Pollo a la olla|10.00|FONDO\n" +
                   //  "P001|Arroz con Leche|12.00|POSTRE\n" +
                   //  "P002|Tres Leches|14.00|POSTRE\n" +
-                    "B001|Chicha Morada|8.00|BEBIDA\n" +
+                    "B001|Chicha Morada|5.00|BEBIDA\n" +
                     "B002|Inca Kola Personal|5.00|BEBIDA\n" +
-                    "B003|Agua Mineral|4.00|BEBIDA\n" +
-                    "F001|Pollo a la Brasa (1/4)|25.00|FONDO\n" +
-                    "F002|Tallarines Verdes|22.00|FONDO\n" +
-                    "F003|Aji de Gallina|24.00|FONDO\n");
+                    "B003|Agua Mineral|3.00|BEBIDA\n" +
+                    "F001|Enrollado de atún|0.00|ENTRADA\n" +
+                    "F002|Sopa de pollo|0.00|ENTRADA\n" +
+                    "F003|Papa a la huancaina|0.00|ENTRADA\n");
 
             if (!File.Exists(RutaInventario))
                 File.WriteAllText(RutaInventario,
-                    "E001|Lomo Saltado|10\n" +
-                    "E002|Ceviche de Pescado|8\n" +
-                    "E003|Papa a la Huancaina|15\n" +
-                    "P001|Arroz con Leche|20\n" +
-                    "P002|Tres Leches|12\n" +
-                    "B001|Chicha Morada|30\n" +
-                    "B002|Inca Kola Personal|25\n" +
-                    "B003|Agua Mineral|40\n" +
-                    "F001|Pollo a la Brasa (1/4)|10\n" +
-                    "F002|Tallarines Verdes|8\n" +
-                    "F003|Aji de Gallina|9\n");
+                    "E001|Lomo Saltado|50\n" +
+                    "E002|Tallarines Verdes|50\n" +
+                    "E003|Pollo a la olla|50\n" +
+                    //"P001|Arroz con Leche|20\n" +
+                    //"P002|Tres Leches|12\n" +
+                    "B001|Chicha Morada|5\n" +
+                    "B002|Inca Kola Personal|5\n" +
+                    "B003|Agua Mineral|3\n" +
+                    "F001|Enrollado de atún |50\n" +
+                    "F002|Sopa de pollo|50\n" +
+                    "F003|Papa a la huancaina|50\n");
 
             if (!File.Exists(RutaPedidos))
                 File.WriteAllText(RutaPedidos, "");
