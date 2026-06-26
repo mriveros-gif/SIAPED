@@ -21,6 +21,7 @@ namespace SIAPED.Utils
         {
             string name = "RESTAURANT \"DON JULIO\"";
             string sistema = "SIAPED - Sistema de Atención y Pedidos";
+            titulo = $"-- {titulo} --";
             Console.Clear();
             string borde = new string('═', 60);
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -28,6 +29,7 @@ namespace SIAPED.Utils
             Console.WriteLine($"  ║{name.PadLeft((60 + name.Length) / 2).PadRight(60)}║");
             //Console.WriteLine($"  ║{"SIAPED - Sistema de Atención y Pedidos".PadLeft(39).PadRight(60)}║");
             Console.WriteLine($"  ║{sistema.PadLeft((60 + sistema.Length) / 2).PadRight(60)}║");
+            Console.WriteLine($"  ╠{borde}╣");
             Console.WriteLine($"  ║{titulo.PadLeft((60 + titulo.Length) / 2).PadRight(60)}║");
             Console.WriteLine($"  ╚{borde}╝");
             Console.ResetColor();
